@@ -1,0 +1,27 @@
+{
+  "name": "iot-node-db",
+  "version": "1.0.0",
+  "description": "A Simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelCarogar/iot_node.git"
+  },
+  "author": "Miguel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiguelCarogar/iot_node/issues"
+  },
+  "homepage": "https://github.com/MiguelCarogar/iot_node#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6"
+  }
+}
